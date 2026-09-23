@@ -1,0 +1,10 @@
+# Copy to terraform.tfvars in THIS folder; or copy ONLY your basic input file here.
+# Use YOUR actual subscription ID, existing lab01 group, and recorded suffix.
+# All-zero ID and replaceme are placeholders; do not deploy with them.
+# Keep japaneast; owner may be your non-sensitive nickname. Never add credentials.
+# Destroy the basic example before applying this one. Do not copy its state.
+subscription_id     = "00000000-0000-0000-0000-000000000000"
+resource_group_name = "rg-tf-basics-lab01-replaceme"
+name_suffix         = "replaceme"
+location            = "japaneast"
+owner               = "participant"

@@ -1,0 +1,17 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+plan.json
+crash.log
+crash.*.log
+terraform.tfvars
+*.auto.tfvars
+*.auto.tfvars.json
+backend.hcl
+*.local.json
+.env
+.env.*
+practice/
+# Keep .terraform.lock.hcl: it records verified provider versions and checksums.

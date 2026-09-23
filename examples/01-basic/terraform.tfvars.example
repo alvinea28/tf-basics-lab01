@@ -1,0 +1,11 @@
+# Copy to terraform.tfvars in THIS folder. Edit the copy, then save it.
+# Replace the all-zero ID with YOUR selected Subscription ID (not Tenant ID).
+# Replace the group with YOUR existing rg-tf-basics-lab01-<suffix> group.
+# Replace replaceme with YOUR 6-12 lowercase-letter/digit suffix; keep it stable.
+# Keep japaneast. owner is an optional non-sensitive nickname.
+# Authenticate with az login in the VS Code terminal; never paste credentials here.
+subscription_id     = "00000000-0000-0000-0000-000000000000"
+resource_group_name = "rg-tf-basics-lab01-replaceme"
+name_suffix         = "replaceme"
+location            = "japaneast"
+owner               = "participant"
